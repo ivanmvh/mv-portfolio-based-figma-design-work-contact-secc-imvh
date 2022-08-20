@@ -1,0 +1,6 @@
+.hamburguer {
+   color: var(--projectPurple);
+   width: 1fr;
+ }
+
+ 

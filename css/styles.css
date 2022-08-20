@@ -1,9 +1,16 @@
+* {
+  text-decoration: none;
+  margin: 0;
+}
+
 body {
-  /*width: 500px;*/
-  background-color: #FF0000;
-  /*max-width: 500px;*/
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 500px; */
+  background-color: #ffffff;
+
+  /* max-width: 500px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
 }
 
 .logo {
@@ -19,11 +26,6 @@ header {
   margin-top: 0;
 }
 
-* {
-  text-decoration: none;
-  margin: 0;
-}
-
 nav {
   margin-top: 19px;
   margin-right: 16px;
@@ -32,6 +34,10 @@ nav {
 #menu1 {
   margin-top: 19px;
   margin-right: 16px;
+}
+
+.sec-portada {
+  background-color: #ffffff ;
 }
 
 h1 {
@@ -80,6 +86,7 @@ button {
   background: #1a2236;
   border-color: #1a2236;
   border-width: 1px 1px 1px 1px;
+  max-width: 300;
 }
 
 button:hover {
@@ -91,4 +98,106 @@ button:active {
   color: #1a2236;
   background: white;
   border-width: 20px 20px 20px 20px;
+}
+
+
+.sec-works {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  row-gap: 70px;
+  margin-top: 30px;
+  background-color: #ffffff ;
+  grid-template-columns: auto;
+  
+  /*padding-top: 70px;
+  padding-bottom: 70px; */
+}
+
+.tit-projects {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.buttons-flex {
+  display: flex;
+  column-gap: 10px;
+}
+
+.li-button {
+  background-color: #98DEDE;
+  color: #1A2236;
+  font-family: Poppins;
+  font-size: 10.33px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  width: 100%;
+  background-color:  #1A2236;
+  padding: 0;
+  padding-top: 0px;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.project img {
+  height: auto;
+  width: 100%;
+}
+.pr-description {
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.pr-description p {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 36px;
+  text-align: left;
+}
+
+.project-button {
+  display: inline-block;
+  width: 178px;
+  height: 44px;
+  margin-left: 30px;
+  margin-top: 40px;
+  border: 1px solid white;
+  background-color: #000000;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 0px;
+  color: #ffffff;
+  
+}
+.menu-hamburg {
+  color: #000000;
+  width: 1fr;
+  margin-right: 20px;
 }
