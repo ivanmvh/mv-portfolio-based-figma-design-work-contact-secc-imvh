@@ -301,3 +301,91 @@ button:active {
 #abi-skills {
    background-color: #FEBF52
 }
+
+/* Contact Form */
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+  gap: 24px;
+  align-items: center;
+}
+
+#contact-tit {
+   width: 300px;
+   margin-right: 0;
+}
+
+#contact-form input {
+  width: 327px;
+  height: 48px;
+}
+
+#contact-form input[name="name"],
+#contact-form input[name="email"],
+#contact-form textarea {
+  color: rgba(25, 23, 101, 1);
+  font-size: 15px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+}
+
+#contact-form textarea {
+  width: 327px;
+  height: 148px;
+}
+
+
+#contact-form button:hover {
+  background-color: var(--color-primary-2);
+  color: var(--color-neutral-11);
+}
+
+#contact-form button:active {
+  background-color: var(--color-primary-1);
+}
+
+#contact-form button:focus {
+  background-color: var(--color-primary-1);
+}
+
+#contact-form button:disabled {
+  background-color: var(--color-neutral-2);
+}
+
+.name-form::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  position: relative;
+  top: -12px;
+  left: 14px;
+}
+
+.email-form::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  position: relative;
+  top: -12px;
+  left: 14px;
+}
+
+.message-form::placeholder {
+  position: relative;
+  left: 16px;
+  top: 4px;
+  width: 80%;
+  font-style:'Poppins', sans-serif;
+}
