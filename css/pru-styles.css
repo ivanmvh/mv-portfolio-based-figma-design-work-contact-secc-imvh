@@ -1,10 +1,10 @@
-/*
+
 * {
   text-decoration: none;
   margin: 0;
 }
-*/
 
+/*
 *,
 *::before,
 *::after {
@@ -14,6 +14,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+*/
 
 body {
   background-color: #fff;
@@ -52,7 +53,7 @@ nav {
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  line-height: 100%;
+  line-height: 50px;
   width: 220px;
   color: #1a2236;
   text-align: left;
@@ -223,6 +224,7 @@ button:active {
   padding-bottom: 60px;
 }
 
+.contact-form-btn,
 .about-button {
   display: inline-block;
   width: 288px;
@@ -250,14 +252,14 @@ button:active {
   flex-direction: column;
   align-items: stretch;
   row-gap: 24px;
-  margin-left: 0;
+  margin-left: 16px;
   margin-right: 50px;
   width: 100%;
-  padding: 15px;
+  padding: 0;
   padding-top: 0;
   padding-bottom: 0;
   color: #FFFFFF; 
-  font-family: 'Poppins', sans-serif;
+  font-family: Popins, san-serif;
   /*width:300px;*/
 }
 
@@ -265,29 +267,19 @@ button:active {
    display: flex;
    flex-direction: column;
    row-gap: 24px;
-   margin-left:16px;
-   margin-right: 16px;
-  }
 
-.tit-abi {
-  font-size:20;
-  font-weight: 800;  
-  line-height: 30px;
-  margin-top: 50px;
-  margin-left: 50px;
 }
 
-.list-abi {
-  margin-bottom: 53px;
-  margin-left: 50px;
-  margin-top: 21px;
-  margin-top:0;
+.tit-hab {
+
 }
 
-.li-abi {
-  font-size:18;
-  font-weight: 600;  
-  line-height: 27px;
+.list-hab {
+
+}
+
+.li-hab {
+
 }
 
 #abi-lang {
@@ -301,3 +293,61 @@ button:active {
 #abi-skills {
    background-color: #FEBF52
 }
+            
+/* Contact Form */
+
+.contact-us {
+   display: flex;
+   flex-direction: column;
+   row-gap: 24px;
+ }
+ 
+ #contact-form {
+   display: flex;
+   flex-direction: column;
+   margin: 0 24px;
+   gap: 24px;
+   align-items: center;
+ }
+
+ #contact-tit {
+    width: 300px;
+    margin-right: 0;
+ }
+ 
+ #contact-form input {
+   width: 327px;
+   height: 48px;
+ }
+ 
+ #contact-form input[name="name"],
+ #contact-form input[name="email"],
+ #contact-form textarea {
+   color: rgba(25, 23, 101, 1);
+   font-size: 15px;
+   font-family: "Inter", serif;
+   font-weight: 400;
+ }
+ 
+ #contact-form textarea {
+   width: 327px;
+   height: 148px;
+ }
+ 
+ 
+ #contact-form button:hover {
+   background-color: var(--color-primary-2);
+   color: var(--color-neutral-11);
+ }
+ 
+ #contact-form button:active {
+   background-color: var(--color-primary-1);
+ }
+ 
+ #contact-form button:focus {
+   background-color: var(--color-primary-1);
+ }
+ 
+ #contact-form button:disabled {
+   background-color: var(--color-neutral-2);
+ }
