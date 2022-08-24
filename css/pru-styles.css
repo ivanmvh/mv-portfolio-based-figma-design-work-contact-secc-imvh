@@ -334,7 +334,6 @@ button:active {
    height: 148px;
  }
  
- 
  #contact-form button:hover {
    background-color: var(--color-primary-2);
    color: var(--color-neutral-11);
