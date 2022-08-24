@@ -16,9 +16,8 @@
   text-decoration: none;
 }
 
-
 :root {
-  --black: 1c1a19;
+  --black: #1c1a19;
   --wine: #730d15;
   --red: #ff6b00;
   --gray: gray;
@@ -90,7 +89,7 @@ nav {
 }
 
 .button-secc {
-  display: inline-block;
+  display: block;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -106,7 +105,6 @@ nav {
   background: #1a2236;
   border-color: #1a2236;
   border-width: 1px 1px 1px 1px;
-  display: block;
   width: 90%;
   cursor: pointer;
 }
@@ -256,7 +254,7 @@ nav {
   padding: 15px;
   padding-top: 0;
   padding-bottom: 0;
-  color: #fff; 
+  color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -264,12 +262,12 @@ nav {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  margin-left:16px;
+  margin-left: 16px;
   margin-right: 16px;
- }
+}
 
 .tit-abi {
-  font-size:20;
+  font-size: 20;
   font-weight: 800;  
   line-height: 30px;
   margin-top: 50px;
@@ -280,17 +278,16 @@ nav {
   margin-bottom: 53px;
   margin-left: 50px;
   margin-top: 21px;
-  margin-top:0;
+  margin-top: 0;
 }
 
 .li-abi {
-  font-size:18;
-  font-weight: 600;  
+  font-size: 18;
+  font-weight: 600;
   line-height: 27px;
 }
 
 #abi-lang {
-  /*background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url("/resorces/ivan.jpg");*/
   background-color: #1c528a;
   background-image: url("../resources/ampersand.png");
   background-repeat: no-repeat;
@@ -299,7 +296,7 @@ nav {
 
 #abi-fw {
   background-color: #e2505c;
-   background-image: url("../resources/bombillo.svg");
+  background-image: url("../resources/bombillo.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
