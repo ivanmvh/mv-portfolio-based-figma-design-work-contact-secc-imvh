@@ -151,9 +151,6 @@ nav {
   margin-top: 30px;
   background-color: #fff;
   grid-template-columns: auto;
-
-  /* padding-top: 70px;
-  padding-bottom: 70px; */
 }
 
 .project {
@@ -176,7 +173,6 @@ nav {
   line-height: 100%;
   color: #1a2236;
   text-align: left;
-  margin-top: 19px;
   margin-left: 16px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -248,7 +244,8 @@ nav {
 }
 
 /* List abilities */
-#sec-abilities{
+
+#sec-abilities {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -259,9 +256,8 @@ nav {
   padding: 15px;
   padding-top: 0;
   padding-bottom: 0;
-  color: #FFFFFF; 
+  color: #fff; 
   font-family: 'Poppins', sans-serif;
-  /*width:300px;*/
 }
 
 .abilities-frame {
@@ -270,7 +266,7 @@ nav {
   row-gap: 24px;
   margin-left:16px;
   margin-right: 16px;
-  }
+ }
 
 .tit-abi {
   font-size:20;
@@ -295,23 +291,21 @@ nav {
 
 #abi-lang {
   /*background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url("/resorces/ivan.jpg");*/
-  background-color: #1C528A;
+  background-color: #1c528a;
   background-image: url("../resources/ampersand.png");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 #abi-fw {
-  background-color: #E2505C;
-  /*background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url("../resources/bombillo.svg");*/
-  background-image: url("../resources/bombillo.svg");
+  background-color: #e2505c;
+   background-image: url("../resources/bombillo.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
  
 #abi-skills {
-  background-color: #FEBF52;
-  /*background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url("../resources/rect-rombo.svg");*/
+  background-color: #febf52;
   background-image: url("../resources/rect-rombo.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -373,8 +367,8 @@ nav {
   font-size: 14px;
   line-height: 21px;
   color: #1A2236;
-  background: #FFFFFF;
-  border: 1px solid #DFDFE0;
+  background: #fff;
+  border: 1px solid #dfdfe0;
   border-radius: 4px;
   height: 52px;
 }
@@ -393,12 +387,6 @@ nav {
 .button-secc:active {
   background-color: var(--color-primary-1);
 }
-
-/*
-.button-secc {
-  background-color: var(--color-primary-1);
-}
-*/
 
 #logo-footer {
   margin-left: -18px;
