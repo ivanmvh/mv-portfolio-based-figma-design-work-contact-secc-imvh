@@ -11,6 +11,9 @@
    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
    <section class="sec-portada">
@@ -23,7 +26,7 @@
       <h1 class="title">Charlie Giorgania</h1>   
       <p class="parrafo">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
    
-      <button>Start collaboration</button>
+      <button class="button-secc">Start collaboration</button>
 
       <div class="port-footer">
          <img class="img2" src="resources/image_geometry_2.svg" alt="Mosaic bottom">
@@ -100,7 +103,7 @@
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
          nisi ut aliquip ea eiusmod
       </p>
-      <button class="about-button">Get my CV -&gt; </button>
+      <button class="button-secc">Get my CV -&gt; </button>
    </section>   
 
    <section id="sec-abilities">
@@ -137,6 +140,40 @@
          </ul>
       </div>         
    </section>
+   <footer> 
+      <section class="contact-us" id="contact-section">
+         <a class="logo" id="logo-footer" href="index.html"> <img  src="resources/image_geometry_1.svg" alt="Mosaic above"> </a>
+         <p class="title" id="contact-tit">Get Started</p>
+         <p class="parrafo" id="descr-contact">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna.
+         </p>
+         <div class="form-container">
+             <form name="contact-form" action="https://formspree.io/f/mzbwzdgd" 
+                   method="post" id="contact-form">
+                 <input class="name-form" name="name" type="text" placeholder="Your full name" maxlength="30" required>
+                 <input class="email-form" name="email" type="email" placeholder="Your email address" required>
+                 <textarea class="message-form" name="message" placeholder="Enteryour message here"
+                           maxlength="500" required></textarea>
+                 <div class="message-panel"></div>
+                 <button type="submit" class="button-secc" id="submit-form">Start collaboration</button>
+             </form>
+         </div>
+     </section>  
+     <section class="social-media-class" id="social-media-id">
+      <div class="get-my-resume">
+         <a class="get-my-cv" href="">Get My Resume <img class="img-res" src="resources/Union.png" alt="Get my resume"></a>
+      </div>
+      <div class="social-media-icons">
+         <a href=""><img src="resources/ic_stackoverflow.svg" alt="stackoverflow"></a>
+         <a href="https://github.com/ivanmvh"><img src="resources/ic_github.svg" alt="github"></a>
+         <a href="https://twitter.com/imprivado"><img src="resources/ic_twitter.svg" alt="twitter"></a>
+         <a href="https://www.linkedin.com/in/ivan-martinez-von-halle/"><img src="resources/ic_linkedin.svg" alt="linkedin"></a>
+         <a href=""><img src="resources/ic_medium.svg" alt="medium"></a>
+         <a href=""><img src="resources/ic_angellist.svg" alt="angellist"></a>
+       </div>
+     </section>  
+   </footer>
 
 </body>
 </html>
