@@ -38,6 +38,11 @@ body {
   margin-top: 0;
 }
 
+#logo-img:hover {
+  transform: skew(15deg, 15deg);
+  /* transform: scale(0.5); */ 
+}
+
 header {
   width: 100%;
   height: 100px;
@@ -107,6 +112,14 @@ nav {
   border-width: 1px 1px 1px 1px;
   width: 90%;
   cursor: pointer;
+}
+
+.button-secc:hover {
+  transform: scale(0.5 , 1.5);
+}
+
+.button-secc:onclick {
+  transform: rotate(5deg);
 }
 
 .button-proj {
