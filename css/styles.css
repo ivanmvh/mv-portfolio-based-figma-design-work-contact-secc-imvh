@@ -125,13 +125,7 @@ nav {
 
   .title {
     font-size: 110px;
-    line-height: 110%;
-  
-    /*
-    margin-top: 230px;
-    margin-left: 160px;
-    */
-  
+    line-height: 110%;  
     margin-top: 16vw;
     margin-left: 11vw;
   }
@@ -503,7 +497,7 @@ nav {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
-  align-items: center;;
+  align-items: center;
 }
 
 #contact-tit {
@@ -532,9 +526,9 @@ nav {
 }
 
 .form-container {
-    margin-top: 32px;
-    align-items: center;
-  }
+  margin-top: 32px;
+  align-items: center;
+}
 
 #name-form,
 #email-form,
@@ -665,7 +659,7 @@ label.dis-block {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;    
+    justify-content: start;
     background-color: #f9f9fa;
     height: 100%;
     margin-top: 0;
@@ -693,7 +687,7 @@ label.dis-block {
     background-repeat: no-repeat;
     background-position: right bottom;
     height: 855px;
-  }    
+  }
  
   #contact-tit {
     font-family: 'Playfair Display';
