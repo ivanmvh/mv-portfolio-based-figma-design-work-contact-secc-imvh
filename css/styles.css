@@ -688,7 +688,7 @@ label.dis-block {
     background-position: right bottom;
     height: 855px;
   }
- 
+
   #contact-tit {
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
@@ -707,7 +707,6 @@ label.dis-block {
   #line1-cf {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     align-items: stretch;
     justify-content: space-around;
     row-gap: 0;
@@ -715,7 +714,7 @@ label.dis-block {
     flex-basis: 1;
     flex-shrink: 1;
     margin-right: 0;
-    margin-top: 4vw; 
+    margin-top: 4vw;
   }
 
   .name-group {
@@ -739,7 +738,7 @@ label.dis-block {
     height: 100%;
     border: 2px solid royalblue;
   }
-  
+
   .dis-block {
     display: block;
   }
