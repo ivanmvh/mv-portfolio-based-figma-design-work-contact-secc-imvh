@@ -662,14 +662,19 @@ nav {
     justify-content: start;    
     background-color: #f9f9fa;
     height: 100%;
+    margin-top: 0;
   }
 
   #img-left-contact {
-    width: 25%;
+    width: 15%;
     background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
     background-repeat: no-repeat;
     background-position: left top;
     height: 800px;
+  }
+
+  .form-container {
+    margin-top: 0;
   }
 
   #form-contact {
@@ -677,12 +682,11 @@ nav {
   }
 
   #img-right-contact {
-    width: 25%;
-    height: 100%;
+    width: 20%;
     background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
     background-repeat: no-repeat;
     background-position: right bottom;
-    height: 800px;
+    height: 855px;
   }    
  
   #contact-tit {
@@ -711,7 +715,7 @@ nav {
     flex-basis: 1;
     flex-shrink: 1;
     margin-right: 0; 
-    margin-top: 5.7vw; 
+    margin-top: 4vw; 
   }
 
   .name-group {
