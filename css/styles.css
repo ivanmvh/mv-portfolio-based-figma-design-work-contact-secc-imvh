@@ -649,8 +649,8 @@ nav {
   margin-left: 15px;
 }
 
-label.dis-block {
-  display: none;
+ label.dis-block {
+  color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
