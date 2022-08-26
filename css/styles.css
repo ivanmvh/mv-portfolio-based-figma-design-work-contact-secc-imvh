@@ -454,7 +454,7 @@ nav {
     row-gap: 0;
     flex-grow: 1;
     flex-basis: 1;
-    flex-shrink: 1; 
+    flex-shrink: 1;
     margin-right: 0;
     margin-bottom: 0;
     padding: 0;
@@ -462,7 +462,7 @@ nav {
   }
 
   .abilities-frame {
-    margin:0;
+    margin: 0;
     min-width: 50%;
     min-height: 50%;
   }
@@ -655,6 +655,56 @@ nav {
 
 @media only screen and (min-width: 768px) {
   .contact-us {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;    
     background-color: #f9f9fa;
   }
+
+  #img-left-contact {
+    width: 25%;
+    border: 1px solid red;
+    background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 100%;
+  }
+
+  #form-contact {
+    width: auto;
+    border: 1px solid red;
+  }
+
+  #img-right-contact {
+    width: 25%;
+    height: 100%;
+    border: 1px solid red;
+    background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }    
+ 
+  #contact-tit {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    text-align: center;
+    width: 100%;
+    margin-top: 11vw;
+  }
+
+  #descr-contact {
+    margin-top: 2.7vw;
+  }
+
+  #line1-cf {
+    display: inline;
+    margin-top: 5.7vw; 
+  }
+
 }
+
