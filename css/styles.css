@@ -67,7 +67,7 @@ nav {
 
 @media only screen and (min-width: 768px) {
   body {
-  background-color: #e5e5e5;
+    background-color: #e5e5e5;
   }
 
   nav {
@@ -122,18 +122,18 @@ nav {
   .sec-portada {
     background-color: #e5e5e5;
   }
-  
+
   .title {
     font-size: 110px;
     line-height: 110%;
-    
+  
     /*
     margin-top: 230px;
     margin-left: 160px;
     */
-    
+  
     margin-top: 16vw;
-    margin-left: 11vw;    
+    margin-left: 11vw;
   }
 
   #tit-port {
@@ -227,9 +227,9 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:flex-start;
-    }
-  
+    justify-content: flex-start;
+  }
+
   .img-port {
     content: url("../resources/pc-img-portada-Thur.png");
     min-height: auto;
@@ -245,7 +245,6 @@ nav {
   align-content: center;
   row-gap: 0;
   margin-top: 30px;
-  background-color: #fff;
   grid-template-columns: auto;
   background-color: #e5e5e5;
 }
@@ -438,24 +437,24 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: none;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-grow: 2;
     min-width: 70%;
-    min-height: 50%; 
+    min-height: 50%;
     margin-left: 11vw;
     margin-right: 11vw;
-    background:#e5e5e5;   
-  } 
+    background: #e5e5e5;
+  }
 
   #sec-abilities {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items:stretch;
+    align-items: stretch;
     row-gap: 0;
     flex-grow: 1;
     flex-basis: 1;
-    flex-shrink: 1;  
+    flex-shrink: 1; 
     margin-right: 0;
     margin-bottom: 0;
     padding: 0;
@@ -487,8 +486,6 @@ nav {
     margin-top: 3vw;
     max-width: 50%;
   }
-
-
 }
 
 /* Contact Form */
@@ -658,6 +655,6 @@ nav {
 
 @media only screen and (min-width: 768px) {
   .contact-us {
-    background-color:  #f9f9fa ;
+    background-color: #f9f9fa;
   }
 }
