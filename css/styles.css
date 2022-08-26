@@ -503,7 +503,7 @@ nav {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
-  align-items: left;
+  align-items: center;;
 }
 
 #contact-tit {
@@ -528,11 +528,13 @@ nav {
   margin-left: 0;
   text-align: left;
   margin-right: 16px;
+  width: 100%;
 }
 
 .form-container {
-  margin-top: 32px;
-}
+    margin-top: 32px;
+    align-items: center;
+  }
 
 #name-form,
 #email-form,
@@ -653,6 +655,10 @@ nav {
   margin-left: 15px;
 }
 
+label.dis-block {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .contact-us {
     margin: 0;
@@ -666,7 +672,7 @@ nav {
   }
 
   #img-left-contact {
-    width: 15%;
+    width: 25%;
     background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
     background-repeat: no-repeat;
     background-position: left top;
@@ -678,11 +684,11 @@ nav {
   }
 
   #form-contact {
-    width: auto;
+    width: 50%;
   }
 
   #img-right-contact {
-    width: 20%;
+    width: 25%;
     background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -728,18 +734,9 @@ nav {
   }
 
   .message-group {
-    float: left;
     margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    /*flex-wrap: wrap;*/
-    align-items: center;
-    justify-content: center;
-    row-gap: 0;
-    flex-grow: 1;
-    flex-basis: 1;
-    flex-shrink: 1;
-    margin-right: 0; 
+    margin: 0; 
+    width: auto;
     /*margin-top: 5.7vw;*/   
   }
 
@@ -791,11 +788,37 @@ nav {
     border-radius: 4px;
     border: 1px solid #252c40;
     border-radius: 4px;
+    width: 100%;
   }
 
   #submit-form {
     width: 17.6vw;
     display: block;
     margin: 0 auto;
+  }
+
+  .social-media-class {
+    display:flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    align-items:;
+    justify-content: space-between;
+    row-gap: 0;
+    flex-grow: 1;
+    flex-basis: 1;
+    flex-shrink: 1;
+    height: 8.3vw;
+    background: #1a2236;
+    border-top: 1px solid #dfe1e6;
+  }
+
+  .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 40%;
   }
 }
