@@ -666,25 +666,23 @@ nav {
 
   #img-left-contact {
     width: 25%;
-    border: 1px solid red;
     background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
     background-repeat: no-repeat;
     background-position: left top;
-    height: 800px;;
+    height: 800px;
   }
 
   #form-contact {
     width: auto;
-    border: 1px solid red;
   }
 
   #img-right-contact {
     width: 25%;
     height: 100%;
-    border: 1px solid red;
     background-image: url("../resources/pc-corner-sup-contact-geometry_6.png");
     background-repeat: no-repeat;
     background-position: right bottom;
+    height: 800px;
   }    
  
   #contact-tit {
@@ -703,18 +701,97 @@ nav {
   }
 
   #line1-cf {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    align-items: stretch;
+    justify-content: space-around;
+    row-gap: 0;
+    flex-grow: 1;
+    flex-basis: 1;
+    flex-shrink: 1;
+    margin-right: 0; 
     margin-top: 5.7vw; 
   }
 
-  .name-form {
-    float:left;
-    margin-right:20px;  
+  .name-group {
+    float: left;
+    margin-right: 20px;  
+  }
+  .email-group {
+    float: left;
+    margin-right: 20px;  
+  }
+
+  .message-group {
+    float: left;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: center;
+    row-gap: 0;
+    flex-grow: 1;
+    flex-basis: 1;
+    flex-shrink: 1;
+    margin-right: 0; 
+    /*margin-top: 5.7vw;*/   
   }
 
   #logo-footer {
     margin-left: -18px;
     height: 100%;
     border: 2px solid royalblue;  
-  }  
+  }
+  
+  .dis-block {
+    display: block;
+  }
+
+  #name-form::placeholder {
+    color: transparent;
+  }
+
+  #email-form::placeholder {
+    color: transparent;
+  }
+
+  #message-form::placeholder {
+    color: transparent;
+  }
+
+  #message-group {
+    display: block;
+    margin: 0 auto;
+  }
+
+  label.dis-block {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  #name-form,
+  #email-form,
+  #message-form {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a2236;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #252c40;
+    border-radius: 4px;
+  }
+
+  #submit-form {
+    width: 17.6vw;
+    display: block;
+    margin: 0 auto;
+  }
 }
