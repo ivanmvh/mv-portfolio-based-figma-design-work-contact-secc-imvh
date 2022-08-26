@@ -44,7 +44,7 @@ body {
   }
 }
 
-  header {
+header {
   width: 100%;
   height: 100px;
   display: flex;
@@ -59,6 +59,10 @@ nav {
 
 .menu {
   display: none;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -69,15 +73,6 @@ nav {
     justify-content: center;
   }
 
-  .menu {
-    flex-direction: column;
-    align-items: left;
-    justify-content: flex-start;
-    width: 100%;
-  } 
-}
-
-@media only screen and (min-width: 768px) {
   #id-menu-hamburger {
     display: none;
   }
@@ -87,11 +82,11 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 50%; 
+    width: 50%;
   }
 
   .menu-option {
-    font-family: 'Poppins' , sand-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -100,7 +95,6 @@ nav {
     list-style-type: none;
   }
 }
-
 
 #menu1 {
   margin-top: 19px;
@@ -131,9 +125,9 @@ nav {
     line-height: 110%;
     margin-top: 292px;
     margin-left: 160px;
-    /* margin-right: 50%; */   
+    
+    /* margin-right: 50%; */
   }
-  
 }
 
 .parrafo {
@@ -155,13 +149,12 @@ nav {
     margin-left: 160px;
     margin-top: 60px;
     width: 484px;
-  }  
+  }
 }
-
 
 .button-secc {
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -223,12 +216,12 @@ nav {
 }
 
 .img-works-pc {
-  display:none;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
- .sec-works {
-    display:none;
+  .sec-works {
+    display: none;
   }
  
   .sec-works-pc {
@@ -236,14 +229,15 @@ nav {
   }
 
   .img-works-pc {
+    display: block;
     max-width: 100%;
     object-fit: fill;
     height: auto;
- } 
+  }
 
- .tit-projects {
-   display: none;
- }
+  .tit-projects {
+    display: none;
+  }
 }
 
 .project {
