@@ -76,7 +76,7 @@ nav {
   #id-menu-hamburger {
     display: none;
   }
-  
+
   .menu {
     display: flex;
     flex-direction: row;
@@ -123,10 +123,20 @@ nav {
   .title {
     font-size: 110px;
     line-height: 110%;
-    margin-top: 292px;
+    margin-top:  230px;
     margin-left: 160px;
-    
+  
     /* margin-right: 50%; */
+  }
+
+  #tit-port {
+    margin-top: 230px;
+    margin-left: 160px;
+  }
+
+  #btn-port {
+    max-width: 254px;
+    margin-left: 160px;
   }
 }
 
@@ -154,7 +164,7 @@ nav {
 
 .button-secc {
   display: block;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -205,6 +215,19 @@ nav {
   width: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+  #port-without-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;    
+  }
+  .img-port {
+    content: url("../resources/pc-img-portada-Thur.png");
+    border: 1px solid var(--red);
+  }  
+}
+
 .sec-works {
   display: grid;
   justify-content: center;
@@ -223,7 +246,7 @@ nav {
   .sec-works {
     display: none;
   }
- 
+
   .sec-works-pc {
     width: 100%;
   }
