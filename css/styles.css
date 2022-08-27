@@ -44,6 +44,8 @@ body {
   }
 }
 
+/* ^^^^ End media ^^^^ */
+
 header {
   width: 100%;
   height: 100px;
@@ -100,6 +102,8 @@ nav {
   }
 }
 
+/* ^^^^ End media ^^^^ */
+
 .sec-portada {
   background-color: #e5e5e5;
 }
@@ -141,6 +145,8 @@ nav {
   }
 }
 
+/* ^^^^ End media ^^^^ */
+
 .parrafo {
   color: #1a2236;
   font-family: 'Poppins', sans-serif;
@@ -162,6 +168,8 @@ nav {
     width: 484px;
   }
 }
+
+/* ^^^^ End media ^^^^ */
 
 .button-secc {
   display: block;
@@ -233,6 +241,8 @@ nav {
   }
 }
 
+/* ^^^^ End media ^^^^ */
+
 .sec-works {
   display: grid;
   justify-content: center;
@@ -267,6 +277,8 @@ nav {
     display: none;
   }
 }
+
+/* ^^^^ End media ^^^^ */
 
 .project {
   display: flex;
@@ -481,6 +493,8 @@ nav {
     max-width: 50%;
   }
 }
+
+/* ----- End media ------ */
 
 /* Contact Form */
 
@@ -810,4 +824,6 @@ label.dis-block {
     margin-bottom: 40px;
     width: 40%;
   }
+
+  /* ----- End media ------ */
 }
