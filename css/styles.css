@@ -306,12 +306,13 @@ nav {
 }
 
 .buttons-flex {
-  display: flex;
-  column-gap: 10px;
+  /*display: flex;
+  column-gap: 10px;*/
   margin-left: 20px;
 }
 
 .li-button {
+  float: right;
   list-style-type: none;
   background-color: #98dede;
   color: #1a2236;
