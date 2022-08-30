@@ -5,6 +5,9 @@
 }
 */
 
+*:focus {
+  background-color: antiquewhite;
+}
 *,
 *::before,
 *::after {
