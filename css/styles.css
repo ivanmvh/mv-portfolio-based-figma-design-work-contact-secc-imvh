@@ -402,14 +402,14 @@ nav {
   .text-content {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-left: 60px;
     margin-top: 0;
   }
 
   .pr-description {
     margin-top: 60px;
-    margin-left: 0;    
+    margin-left: 0;
   }
 
   .pr-description p {
@@ -420,13 +420,13 @@ nav {
     margin-top: 0;
     text-align: left;
   }
-   
+
   .s-1-1 {
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
-}
+  }
 
   .s-1-2 {
     grid-row-start: 1;
@@ -458,7 +458,7 @@ nav {
   .s-3-2 {
     background-image: url("../resources/P5-IMG.png");
     background-repeat: no-repeat;
-    background-position:center;  
+    background-position: center;
     background-size: cover;
     width: min-content;
   }
@@ -484,7 +484,7 @@ nav {
   .s-3-2 .text-content {
     margin-left: 0;
   }
-   
+
   .s-3-2 .project-button {
     margin-top: 15px;
   }
@@ -511,18 +511,18 @@ nav {
     font-size: 20px;
     text-align: left;
     padding: 12px 20px;
-    border-radius: 0px;
+    border-radius: 0;
     margin-top: 0;
     height: 40px;
   }
-  
+
   .project-button {
     display: inline-block;
     margin-top: 60px;
     margin-left: 0;
     background: #fff;
     color: #1a2236;
-    font-Size: 18px;
+    font-size: 18px;
     line-height: 27px;
   }
 }
@@ -535,7 +535,7 @@ nav {
 
 .button-secc:hover {
   color: #5e6c84;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 /* List abilities */
@@ -697,12 +697,12 @@ footer {
 }
 
 #img-left-contact {
-  margin:0;
+  margin: 0;
   width: 0;
 }
 
 #img-left-contact {
-  margin:0;
+  margin: 0;
   width: 0;
 }
 
@@ -735,7 +735,7 @@ footer {
   margin-top: 20px;
   margin-left: 0;
   text-align: left;
-  margin-right: 0; 
+  margin-right: 0;
   padding: 0;
   max-width: 450px;
 }
@@ -758,7 +758,6 @@ footer {
   border: 1px solid #dfdfe0;
   border-radius: 4px;
   height: 52px;
-  border: 1px solid #98dede;
   margin-left: 1vw;
   margin-right: 0.1vw;
   width: 60vw;
@@ -769,7 +768,7 @@ footer {
 }
 
 .button-secc:active {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 #logo-footer {
@@ -869,8 +868,8 @@ label.dis-block {
 @media only screen and (min-width: 768px) {
 
   footer {
-      max-width: 1440px;
-    }
+    max-width: 1440px;
+  }
 
   .contact-us {
     margin: 0;
@@ -936,15 +935,14 @@ label.dis-block {
   .name-group {
     display: flex;
     flex-direction: column;
-    margin:0;
-
+    margin: 0;
     width: 50px;
   }
 
   .email-group {
     float: left;
-    margin:0;
-    width: 254px;;
+    margin: 0;
+    width: 254px;
   }
 
   .message-group {
@@ -959,25 +957,24 @@ label.dis-block {
   }
 
  /*
-
- .dis-block {
-    display: block;
-  }
+.dis-block {
+  display: block;
+}
 
 */
 
 /*
-  #name-form::placeholder {
-    color: transparent;
-  }
+#name-form::placeholder {
+  color: transparent;
+}
 
-  #email-form::placeholder {
-    color: transparent;
-  }
+#email-form::placeholder {
+  color: transparent;
+}
 
-  #message-form::placeholder {
-    color: transparent;
-  }
+#message-form::placeholder {
+  color: transparent;
+}
 
  */
  
@@ -1011,7 +1008,8 @@ label.dis-block {
 
   #message-form {
     width: 400px;
-  }  
+  }
+
   #submit-form {
     width: 17.6vw;
     display: block;
@@ -1043,4 +1041,3 @@ label.dis-block {
 }
 
 /* ----- End media ------ */
-
