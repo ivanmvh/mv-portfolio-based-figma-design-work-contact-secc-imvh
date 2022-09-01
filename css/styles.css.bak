@@ -30,7 +30,7 @@
 
 body {
   background-color: #e5e5e5;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .logo {
@@ -38,13 +38,11 @@ body {
   margin-top: 0;
 }
 
-@media only screen and (min-width: 768px) {
-  .logo {
-    display: none;
-  }
+.menu-hamburg {
+  color: #000;
+  width: 1fr;
+  margin-right: 20px;
 }
-
-/* ^^^^ End media ^^^^ */
 
 header {
   width: 100%;
@@ -72,15 +70,19 @@ nav {
     background-color: #e5e5e5;
   }
 
+  .logo {
+    display: none;
+  }
+
+  #id-menu-hamburger {
+    display: none;
+  }
+
   nav {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-
-  #id-menu-hamburger {
-    display: none;
   }
 
   .menu {
@@ -119,7 +121,7 @@ nav {
   text-align: left;
   margin-top: 19px;
   margin-left: 18px;
-  margin-right: 60%;
+  /*margin-right: 60%;*/
 }
 
 @media only screen and (min-width: 768px) {
@@ -262,10 +264,6 @@ nav {
     display: none;
   }
 
-  .sec-works-pc {
-    width: 100%;
-  }
-
   .img-works-pc {
     display: block;
     max-width: 100%;
@@ -355,11 +353,56 @@ nav {
   text-align: left;
 }
 
-.menu-hamburg {
-  color: #000;
-  width: 1fr;
-  margin-right: 20px;
+@media only screen and (min-width: 768px) {
+  .sec-works-pc {
+  /*  
+      width: 1440px;
+      height: 1644px;
+      background-image: url("../resources/Group-117.png");
+      background-repeat: no-repeat;
+      background-position:center;
+  */    
+    display: inline-grid;
+    grid-gap: 0px;
+    grid-template-areas: 
+      "s-1-1"
+      "s-1-2"
+      "s-2-2"
+      "s-3-2"
+      "s-3-3"; 
+    grid-template-areas: 
+      "s-1-1 s-1-2  s-1-2"
+      "s-1-1 s-2-2  s-3-2"
+      "s-1-1 s-2-2  s-3-3";
+    margin: 0; 
+    width: 100vw;
+    height: auto;     
+  }
+
+  .s-1-1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
+
+  .s-1-2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  } 
+
+  .s-2-2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+}
+
+/* ^^^^ End media ^^^^ */
 
 .about-myself {
   padding-bottom: 60px;
@@ -500,18 +543,36 @@ nav {
 
 .contact-us {
   display: flex;
+  flex-direction: row;
   align-items: left;
-  flex-direction: column;
   margin-left: 18px;
   margin-right: 14px;
   background-color: #f9f9fa;
+}
+
+#form-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: start;*/
+  row-gap: 8px;
 }
 
 #contact-form {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
-  align-items: center;
+  align-items: left;
+}
+
+#img-left-contact {
+  margin:0;
+  width: 0;
+}
+
+#img-left-contact {
+  margin:0;
+  width: 0;
 }
 
 #contact-tit {
@@ -525,6 +586,14 @@ nav {
   line-height: 100%;
 }
 
+#line1-cf {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  row-gap: 8px;
+  margin: 0;
+}
+
 #descr-contact {
   color: #1a2236;
   font-family: 'Poppins', sans-serif;
@@ -533,15 +602,13 @@ nav {
   font-size: 14px;
   line-height: 21px;
   margin-top: 20px;
-  margin-left: 0;
+  margin-left: 18px;
   text-align: left;
   margin-right: 16px;
-  width: 100%;
 }
 
 .form-container {
   margin-top: 32px;
-  align-items: center;
 }
 
 #name-form,
@@ -557,6 +624,10 @@ nav {
   border: 1px solid #dfdfe0;
   border-radius: 4px;
   height: 52px;
+  border: 1px solid #98dede;
+  margin-left: 1vw;
+  margin-right: 0.1vw;
+  width: 60vw;
 }
 
 #message-form {
@@ -582,7 +653,7 @@ nav {
   background-color: var(--color-neutral-2);
 }
 
-.name-form::placeholder {
+#name-form::placeholder {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -594,7 +665,7 @@ nav {
   color: #7d7c84;
 }
 
-.email-form::placeholder {
+#email-form::placeholder {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -605,7 +676,7 @@ nav {
   left: 14px;
 }
 
-.message-form::placeholder {
+#message-form::placeholder {
   position: relative;
   left: 16px;
   top: 4px;
@@ -664,10 +735,12 @@ nav {
 }
 
 label.dis-block {
+  visibility: hidden;
   color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
+
   .contact-us {
     margin: 0;
     display: flex;
@@ -721,24 +794,26 @@ label.dis-block {
   #line1-cf {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    justify-content: space-around;
-    row-gap: 0;
-    flex-grow: 1;
-    flex-basis: 1;
-    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 8px;
     margin-right: 0;
     margin-top: 4vw;
+    column-gap: 35px;
   }
 
   .name-group {
-    float: left;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+
+    width: 50px;
   }
 
   .email-group {
     float: left;
-    margin-right: 20px;
+    margin:0;
+    width: 254px;;
   }
 
   .message-group {
@@ -752,10 +827,15 @@ label.dis-block {
     border: 2px solid royalblue;
   }
 
-  .dis-block {
+ /*
+
+ .dis-block {
     display: block;
   }
 
+*/
+
+/*
   #name-form::placeholder {
     color: transparent;
   }
@@ -768,6 +848,8 @@ label.dis-block {
     color: transparent;
   }
 
+ */
+ 
   #message-group {
     display: block;
     margin: 0 auto;
@@ -793,9 +875,12 @@ label.dis-block {
     background: #fff;
     border: 1px solid #252c40;
     border-radius: 4px;
-    width: 100%;
+    width: 95%;
   }
 
+  #message-form {
+    width: 400px;
+  }  
   #submit-form {
     width: 17.6vw;
     display: block;
@@ -824,6 +909,7 @@ label.dis-block {
     margin-bottom: 40px;
     width: 40%;
   }
-
-  /* ----- End media ------ */
 }
+
+/* ----- End media ------ */
+
