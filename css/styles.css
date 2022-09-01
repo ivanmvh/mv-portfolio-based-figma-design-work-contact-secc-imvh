@@ -200,7 +200,7 @@ nav {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid white;
-  background-color: #1A2236;
+  background-color: #1a2236;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -211,15 +211,15 @@ nav {
 }
 
 .project-button:hover {
-  color: #FFFFFF; 
-  background: #1a2236;   
+  color: #fff;
+  background: #1a2236;
 }
 
 .project-button:active {
-  color: #FFFFFF; 
+  color: #fff;
   background: #1a2236;
-  border: 2px solid #FFFFFF;   
-}  
+  border: 2px solid #fff;
+}
 
 .button-proj:hover {
   color: #1a2236;
@@ -241,7 +241,7 @@ nav {
   .port-footer img {
     width: fit-content;
   }
-  
+
   .img-port {
     content: url("../resources/pc-img-portada-Thur.png");
     object-fit: content;
@@ -271,9 +271,9 @@ nav {
   margin-left: 0;
   width: 100%;
 
-  /* background-color: #1a2236; */
-  /* border: 0.333333px solid rgba(255, 255, 255, 0.1); */
-  /* backdrop-filter: blur(1px); */
+  /* background-color: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(1px); */
   padding: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -296,12 +296,12 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 0;
-  background: #1A2236;
+  background: #1a2236;
 
-  /* border: 0.333333px solid rgba(255, 255, 255, 0.1); */
-  /* backdrop-filter: blur(1px); */
+  /* border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px); */
   padding-left: 20px;
-  padding-right: 10px ;
+  padding-right: 10px;
 }
 
 .project img {
@@ -355,10 +355,9 @@ nav {
 
 .sec-works-pc {
   display: none;
-} 
+}
 
 @media only screen and (min-width: 768px) {
-
   .sec-works {
     display: none;
   }
@@ -376,7 +375,7 @@ nav {
 
   .sec-works-pc {
     display: inline-grid;
-    grid-gap: 0px;
+    grid-gap: 0;
     grid-template-areas:
       "s-1-1 s-1-2  s-1-2"
       "s-1-1 s-2-2  s-3-2"
@@ -389,6 +388,39 @@ nav {
     background-color: #fff;
   }
 
+  .project {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 200px;
+    height: 353px;
+    margin-left: 0;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 60px;
+    margin-top: 0;
+  }
+
+  .pr-description {
+    margin-top: 60px;
+    margin-left: 0;    
+  }
+
+  .pr-description p {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 48px;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+   
   .s-1-1 {
     grid-row-start: 1;
     grid-row-end: 4;
@@ -403,17 +435,17 @@ nav {
     grid-column-end: 4;
     background-image: url("../resources/P1-IMG.png");
     background-repeat: no-repeat;
-    background-position:center;  
+    background-position: center;
     background-size: cover;
-  } 
-  
+  }
+
   .s-1-2 .project {
-    align-items: stretch ;
+    align-items: stretch;
   }
 
   .s-1-2 .text-content {
     margin-left: 0;
-   }
+  }
 
   .s-2-2 {
     grid-row-start: 2;
@@ -451,54 +483,21 @@ nav {
 
   .s-3-2 .text-content {
     margin-left: 0;
-   }
+  }
    
-   .s-3-2 .project-button {
+  .s-3-2 .project-button {
     margin-top: 15px;
-   }
+  }
 
-   .s-3-3 {
+  .s-3-3 {
     background-color: #fff;
-   }
-
-   .fill-cont {
-     object-fit: cover;
-     width: -webkit-fill-available;
   }
 
-  .project {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 200px;
-    height: 353px;
-    margin-left: 0;
-    padding: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    }
-  
-  .text-content {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    margin-left: 60px;
-    margin-top: 0;
-   }
-
-  .pr-description {
-    margin-top: 60px;
-    margin-left: 0;    
+  .fill-cont {
+    object-fit: cover;
+    width: -webkit-fill-available;
   }
 
-  .pr-description p {
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 48px;
-    margin-left: 0;
-    margin-top: 0;
-    text-align: left;
-  }
-  
   .buttons-flex {
     display: flex;
     flex-direction: row;
@@ -521,7 +520,7 @@ nav {
     display: inline-block;
     margin-top: 60px;
     margin-left: 0;
-    background: #FFFFFF;
+    background: #fff;
     color: #1a2236;
     font-Size: 18px;
     line-height: 27px;
