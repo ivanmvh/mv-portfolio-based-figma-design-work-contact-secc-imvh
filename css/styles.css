@@ -110,11 +110,9 @@ nav {
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  /* width: 220px; */ 
   color: #1a2236;
   text-align: left;
   margin-top: 19px;
-  /*margin-left: 18px; */
 }
 
 .port-contenido {
@@ -979,9 +977,6 @@ label.dis-block {
   display: block;
 }
 
-*/
-
-/*
 #name-form::placeholder {
   color: transparent;
 }
