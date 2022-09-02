@@ -110,33 +110,39 @@ nav {
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  width: 220px;
+  /* width: 220px; */ 
   color: #1a2236;
   text-align: left;
   margin-top: 19px;
-  margin-left: 18px;
+  /*margin-left: 18px; */
+}
+
+.port-contenido {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media only screen and (min-width: 768px) {
   .sec-portada {
     background-color: #fff;
+    padding-left: 11vw;
+    padding-right: 0;
   }
 
   .title {
     font-size: 110px;
     line-height: 110%;
     margin-top: 16vw;
-    margin-left: 11vw;
+    /* padding-left: 11vw; */
   }
 
   #tit-port {
+    width: 484px;
     margin-top: 16vw;
-    margin-left: 11vw;
   }
 
   #btn-port {
-    max-width: 20vw;
-    margin-left: 12vw;
+    width: 17.63vw;
   }
 }
 
@@ -152,12 +158,12 @@ nav {
   letter-spacing: -0.01em;
   margin-top: 21px;
   text-align: left;
-  padding: 0 16px;
+  /* padding: 0 16px; */
 }
 
 @media only screen and (min-width: 768px) {
   .parrafo {
-    margin-left: 160px;
+    /* padding-left: 160px; */
     margin-top: 60px;
     width: 484px;
   }
@@ -176,8 +182,8 @@ nav {
   color: white;
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: 16px;
-  margin-right: 30px;
+  padding-left: 16px;
+  padding-right: 30px;
   height: 50px;
   background: #1a2236;
   border-color: #1a2236;
@@ -226,6 +232,10 @@ nav {
   background: white;
 }
 
+.port-footer {
+  width: 100vw;
+}
+
 .port-footer img {
   width: 100%;
 }
@@ -238,13 +248,20 @@ nav {
     justify-content: flex-start;
   }
 
-  .port-footer img {
-    width: fit-content;
+  .port-contenido {
+    width: 51vw;
+    padding-left: 0;
+  }
+
+  .port-footer {
+    width: 49vw;
+    padding-left: 6.52vw;
   }
 
   .img-port {
     content: url("../resources/pc-img-portada-Thur.png");
     object-fit: content;
+    max-width: 45vw;
   }
 }
 
@@ -365,7 +382,7 @@ nav {
   .img-works-pc {
     display: block;
     max-width: 100%;
-    object-fit: fill;
+    /*object-fit: fill;*/
     height: auto;
   }
 
@@ -374,6 +391,7 @@ nav {
   }
 
   .sec-works-pc {
+    width: 100vw;  
     display: inline-grid;
     grid-gap: 0;
     grid-template-areas:
@@ -381,9 +399,7 @@ nav {
       "s-1-1 s-2-2  s-3-2"
       "s-1-1 s-2-2  s-3-3";
     margin: 0;
-    width: 100vw;
     height: auto;
-    margin-top: 14.5vw;
     justify-items: stretch;
     background-color: #fff;
   }
@@ -426,6 +442,8 @@ nav {
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
+    width: 478px;
+    height: auto;
   }
 
   .s-1-2 {
@@ -437,6 +455,8 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 978px;
+    height: auto;
   }
 
   .s-1-2 .project {
@@ -453,6 +473,8 @@ nav {
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 0;
+    width: 492px;
+    height: auto;
   }
 
   .s-3-2 {
@@ -461,6 +483,8 @@ nav {
     background-position: center;
     background-size: cover;
     width: min-content;
+    width: 456px;
+    height: auto;
   }
 
   .s-3-2 .project {
@@ -491,6 +515,8 @@ nav {
 
   .s-3-3 {
     background-color: #fff;
+    width: 465px;
+    height: auto;
   }
 
   .fill-cont {
@@ -529,6 +555,11 @@ nav {
 
 /* ^^^^ End media ^^^^ */
 
+.abilities-and-about-me-flex {
+  padding-left: 16px;
+  padding-right: 15px;
+}
+
 .about-myself {
   padding-bottom: 60px;
 }
@@ -559,8 +590,6 @@ nav {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .tit-abi {
@@ -607,22 +636,23 @@ nav {
 }
 
 @media only screen and (min-width: 768px) {
-  #abilities-and-about-me-flex {
+  .abilities-and-about-me-flex {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: none;
     align-items: flex-start;
     flex-grow: 2;
-    min-width: 70%;
-    min-height: 50%;
-    margin-left: 11vw;
-    margin-right: 11vw;
+    /*min-width: 70%; */
+    /* min-height: 50%; */
+    padding-left: 11vw;
+    padding-right: 11vw;
     margin-top: 15vw;
     background-color: #fff;
-    width: max-content;
+    /* width: max-content; */
   }
 
   #sec-abilities {
+    width: 22.08vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -639,12 +669,13 @@ nav {
 
   .abilities-frame {
     margin: 0;
-    min-width: 50%;
-    min-height: 50%;
+    /* min-width: 50%;
+    min-height: 50%; */
   }
 
   #about-me {
-    margin-left: 6.6vw;
+    width: 37.63vw;
+    padding-left: 6.6vw;
   }
 
   #ab-tit {
@@ -655,6 +686,7 @@ nav {
   #ab-descr {
     margin-left: 0;
     margin-top: 2vw;
+    width: 99%;
   }
 
   #ab-btn {
