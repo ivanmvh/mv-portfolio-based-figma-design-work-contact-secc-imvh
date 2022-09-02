@@ -972,25 +972,6 @@ label.dis-block {
     border: 2px solid royalblue;
   }
 
-   /*
-.dis-block {
-  display: block;
-}
-
-#name-form::placeholder {
-  color: transparent;
-}
-
-#email-form::placeholder {
-  color: transparent;
-}
-
-#message-form::placeholder {
-  color: transparent;
-}
-
-  */
- 
   #message-group {
     display: block;
     margin: 0 auto;
