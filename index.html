@@ -20,18 +20,28 @@
       <header> 
          <a class="logo" href="index.html"> <img  src="resources/image_geometry_1.svg" alt="Mosaic above"> </a>
          <nav>
-            <i class="menu-hamburg fa fa-bars"></i>
+            <i id="id-menu-hamburger" class="menu-hamburg fa fa-bars"></i>
+            <ul class="menu">
+               <li class="menu-option">Hello</li>
+               <li class="menu-option">Portfolio</li>
+               <li class="menu-option">About</li>
+               <li class="menu-option">Contact</li>
+            </ul>
          </nav>
       </header>
-      <h1 class="title">Charlie Giorgania</h1>   
-      <p class="parrafo">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+      
+      <section id="port-without-header">
+         <div class="port-contenido">
+            <h1 id="tit-port" class="title">Charlie Giorgania</h1>   
+            <p class="parrafo">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
    
-      <button class="button-secc">Start collaboration</button>
-
-      <div class="port-footer">
-         <img class="img2" src="resources/image_geometry_2.svg" alt="Mosaic bottom">
-      </div>
-      <h1 class="tit-projects">Projects</h1>
+            <button id="btn-port" class="button-secc">Start collaboration</button>
+         </div>
+         <div class="port-footer">
+            <img class="img-port" src="resources/image_geometry_2.svg" alt="Mosaic bottom">
+            <h1 class="tit-projects">Projects</h1>
+         </div>
+      </section>      
    </section>
 
    <section class="sec-works">
@@ -42,9 +52,9 @@
                <p>Project name goes here</p>
             </div>
             <ul class="buttons-flex">
-            <li class="li-button">html</li>
-            <li class="li-button">css</li>
-            <li class="li-button">javaScript</li>
+               <li class="li-button">HTML/CSS</li>
+               <li class="li-button">Ruby on Rails</li>
+               <li class="li-button">javaScript</li>
             </ul>
             <button class="project-button">See this Project -&gt; </button>
          </div>            
@@ -57,8 +67,8 @@
                <p>Project name goes here</p>   
             </div>
             <ul class="buttons-flex">
-               <li class="li-button">html</li>
-               <li class="li-button">css</li>
+               <li class="li-button">HTML/CSS</li>
+               <li class="li-button">Ruby on Rails</li>
                <li class="li-button">javaScript</li>
             </ul>
             <button class="project-button">See this Project -&gt;</button>
@@ -72,8 +82,8 @@
                <p>Project name goes here</p> 
             </div>
             <ul class="buttons-flex">
-               <li class="li-button">html</li>
-               <li class="li-button">css</li>
+               <li class="li-button">HTML/CSS</li>
+               <li class="li-button">Ruby on Rails</li>
                <li class="li-button">javaScript</li>
             </ul>
             <button class="project-button">See this Project -&gt;</button>
@@ -86,29 +96,88 @@
                <p>Project name goes here</p>
             </div>
             <ul class="buttons-flex">
-               <li class="li-button">html</li>
-               <li class="li-button">css</li>
+               <li class="li-button">HTML/CSS</li>
+               <li class="li-button">Ruby on Rails</li>
                <li class="li-button">javaScript</li>
             </ul>
             <button class="project-button">See this Project -&gt;</button>
          </div>            
       </article>
+      <article class="project">
+         <img src="resources/P5-IMG.png" alt="imagen projecto 1">
+         <div class="text-content">
+            <div class="pr-description">
+               <p>Project name goes here</p>
+            </div>
+            <ul class="buttons-flex">
+               <li class="li-button">HTML/CSS</li>
+               <li class="li-button">Ruby on Rails</li>
+               <li class="li-button">javaScript</li>
+            </ul>
+            <button class="project-button">See this Project -&gt;</button>
+         </div>            
+      </article>      
    </section>
-   
-   <section class="about-me">
-      <h1 class="title" id="ab-tit">About</h1>
-      <p class="parrafo"> 
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-         nisi ut aliquip ea eiusmod
-      </p>
-      <button class="button-secc">Get my CV -&gt; </button>
-   </section>   
 
-   <section id="sec-abilities">
+   <section class="sec-works-pc">
+      <div class="s-1-1">
+         <img class="fill-cont" src="resources/project-pc-recortes/Slice-1-1-izq.png" alt="imagen">
+      </div>
+      <div class="s-1-2">
+         <article class="project">
+            <div class="text-content">
+               <div class="pr-description" id="pr-des-pc">
+                  <p>Project name goes here</p>
+               </div>
+               <ul class="buttons-flex" id="ul-btn-pc">
+               <li class="li-button">HTML/CSS/</li>
+               <li class="li-button">Ruby on Rails</li>
+               <li class="li-button">javaScript</li>
+               </ul>
+               <button class="project-button">See this Project -&gt; </button>
+            </div>            
+         </article>
+      </div>
+      <div class="s-2-2" >   
+         <img class="fill-cont" src="resources/project-pc-recortes/Slice-2-2.png" alt="imagen">
+      </div>
+      <div class="s-3-2">   
+         <article class="project">
+            <div class="text-content">
+               <div class="pr-description">
+                  <p>Project name goes here</p>
+               </div>
+               <ul class="buttons-flex">
+                  <li class="li-button">HTML/CSS</li>
+                  <li class="li-button">Ruby on Rails</li>
+                  <li class="li-button">+1</li>
+               </ul>
+               <button class="project-button">See this Project -&gt; </button>
+            </div>
+            <img src="resources/P1-IMG.png" alt="imagen projecto 1">            
+         </article>
+      </div>
+
+      <div class="s-3-3">
+            <img class="fill-cont" src="resources/project-pc-recortes/Slice-3-3.png" alt="imagen">
+     </div>      
+   </section>
+
+   <section class="abilities-and-about-me-flex">
+      <section id="about-me">
+         <h1 class="title" id="ab-tit">About</h1>
+         <p id="ab-descr" class="parrafo"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ea eiusmod
+         </p>
+         <button id="ab-btn" class="button-secc">Get my CV -&gt; </button>
+      </section>   
+
+      <section id="sec-abilities">
       
-      <div class="abilities-frame" id="abi-lang">
+         <div class="abilities-frame" id="abi-lang">
          <h2 class="tit-abi">Languajes</h2>
          <ul class="list-abi">
             <li class="li-abi">JavaScript(ES5/ES6)</li>
@@ -116,9 +185,9 @@
             <li class="li-abi">Ruby</li>
             <li class="li-abi">CSS</li>
          </ul>
-      </div>
+         </div>
       
-      <div class="abilities-frame" id="abi-fw">
+         <div class="abilities-frame" id="abi-fw">
          <h2 class="tit-abi">Frameworks</h2>
          <ul class="list-abi">
             <li class="li-abi">Bootstrap</li>
@@ -127,9 +196,9 @@
             <li class="li-abi">Capibara</li>
             <li class="li-abi">Selenium</li>            
          </ul>      
-      </div>
+         </div>
 
-      <div class="abilities-frame" id="abi-skills">
+         <div class="abilities-frame" id="abi-skills">
          <h2 class="tit-abi">Skills</h2>
          <ul class="list-abi">
             <li class="li-abi">Codekit</li>
@@ -138,27 +207,42 @@
             <li class="li-abi">Gitlab</li>
             <li class="li-abi">Terminal</li>
          </ul>
-      </div>         
+         </div>         
+      </section>
    </section>
+
    <footer> 
       <section class="contact-us" id="contact-section">
-         <a class="logo" id="logo-footer" href="index.html"> <img  src="resources/image_geometry_1.svg" alt="Mosaic above"> </a>
-         <p class="title" id="contact-tit">Get Started</p>
-         <p class="parrafo" id="descr-contact">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna.
-         </p>
-         <div class="form-container">
-             <form name="contact-form" action="https://formspree.io/f/mzbwzdgd" 
+         <div id="img-left-contact">
+            <a class="logo" id="logo-footer" href="index.html"> <img  src="resources/image_geometry_1.svg" alt="Mosaic above"> </a>     
+         </div>   
+         <div id="form-contact">
+            <p class="title" id="contact-tit">Get started</p>
+            <p class="parrafo" id="descr-contact">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+            <div class="form-container">
+               <form name="contact-form" action="https://formspree.io/f/mzbwzdgd" 
                    method="post" id="contact-form">
-                 <input class="name-form" name="name" type="text" placeholder="Your full name" maxlength="30" required>
-                 <input class="email-form" name="email" type="email" placeholder="Your email address" required>
-                 <textarea class="message-form" name="message" placeholder="Enteryour message here"
-                           maxlength="500" required></textarea>
-                 <div class="message-panel"></div>
-                 <button type="submit" class="button-secc" id="submit-form">Start collaboration</button>
+                  <div id="line1-cf">
+                     <div id="name-group">
+                        <input class="dis-block"  id="name-form" name="name" type="text" placeholder="Your full name" maxlength="30" required>
+                     </div>
+                     <div id="email-group">
+                        <input class="dis-block"  id="email-form" name="email" type="email" placeholder="Your email address" required>
+                     </div>
+                  </div>   
+                  <div id="message-group">
+                     <textarea class="dis-block"  id="message-form" name="message" placeholder="Enteryour message here"
+                        maxlength="500" required></textarea>
+                  </div>      
+                  <button type="submit" class="button-secc" id="submit-form">Start collaboration</button>
              </form>
+            </div>
          </div>
+         <div id="img-right-contact">
+                  
+         </div>   
      </section>  
      <section class="social-media-class" id="social-media-id">
       <div class="get-my-resume">
@@ -175,5 +259,6 @@
      </section>  
    </footer>
 
+   
 </body>
 </html>
