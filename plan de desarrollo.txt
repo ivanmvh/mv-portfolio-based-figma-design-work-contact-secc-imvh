@@ -14,3 +14,5 @@ x listo 3. Copiar Imagenes de Figma (dar nombres apropiados - img-proj-1)
     - DESARROLLO COBOL
     - DESARROLLO VISUAL FOXPRO
     - DESRROLLO WORDPRESS
+
+Prueba: Pasar directorios locales desde compu Fer a comppu mia win10    
